@@ -1,0 +1,54 @@
+partner 1 firstname and lastname:   Travis Xie
+partner 1 student number:  1864724
+partner 1 uwnetid: yinuox
+
+partner 2 firstname and lastname: Susan Yang
+partner 2 student number: 1839230
+partner 2 uwnetid: xuanry
+
+
+Assignment 2 Report -- Heuristic Search
+
+CSE 415: Introduction to Artificial Intelligence
+Winter, 2021
+
+
+1. Results with Heuristics for the Eight Puzzle
+
+ Puzzle  Heuristic  Solved?  # Soln Edges  Soln Cost   # Expanded  Max OPEN
++------+-----------+-------+--------------+----------+------------+--------+
+|  A   | none (UCS)|   Y   |      7       |    7.0   |     166    |   101  |
++------+-----------+-------+--------------+----------+------------+--------+
+|  A   | Hamming   |   Y   |      7       |    7     |     7      |   6    |
++------+-----------+-------+--------------+----------+------------+--------+
+|  A   | Manhattan |   Y   |      7       |    7     |     7      |   6    |
++------+-----------+-------+--------------+----------+------------+--------+
+|  B   | none (UCS)|   Y   |     12       |   12.0   |    1490    |  898   |
++------+-----------+-------+--------------+----------+------------+--------+
+|  B   | Hamming   |   Y   |     12       |   12.0   |     95     |   72   |
++------+-----------+-------+--------------+----------+------------+--------+
+|  B   | Manhattan |   Y   |     12       |   12.0   |     34     |   25   |
++------+-----------+-------+--------------+----------+------------+--------+
+|  C   | none (UCS)|   Y   |     14       |   14.0   |    4070    |  2290  |
++------+-----------+-------+--------------+----------+------------+--------+
+|  C   | Hamming   |   Y   |     14       |   14.0   |    195     |  127   |
++------+-----------+-------+--------------+----------+------------+--------+
+|  C   | Manhattan |   Y   |     14       |   14.0   |     56     |   39   |
++------+-----------+-------+--------------+----------+------------+--------+
+|  D   | none (UCS)|   Y   |     16       |   16.0   |    7982    |  4700  |
++------+-----------+-------+--------------+----------+------------+--------+
+|  D   | Hamming   |   Y   |     16       |    16    |     593    |   368  |
++------+-----------+-------+--------------+----------+------------+--------+
+|  D   | Manhattan |   Y   |     16       |    16    |     155    |   98   |
++------+-----------+-------+--------------+----------+------------+--------+
+
+
+Puzzle A: [3,0,1,6,4,2,7,8,5]
+Puzzle B: [3,1,2,6,8,7,5,4,0]
+Puzzle C: [4,5,0,1,2,8,3,7,6]
+Puzzle D: [0,8,2,1,7,4,3,6,5]
+
+
+2. (Optional) Evaluating Our Custom Heuristics
+For all four puzzles, all the custom heuristics made solving much faster than UCS. And Manhattan method 
+runs faster and save more space in open list than Hamming method. 

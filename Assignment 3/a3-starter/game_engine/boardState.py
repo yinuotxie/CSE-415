@@ -42,7 +42,6 @@ class bgstate:
             self.next_move = None
             self.next_roll = None
             self.pointLists = [
-            # red's home
               [W, W],
               [],
               [],
@@ -61,7 +60,6 @@ class bgstate:
               [],
               [W, W, W],
               [],
-              # white's home
               [W, W, W, W, W],
               [],
               [],

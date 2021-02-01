@@ -1,0 +1,169 @@
+Welcome to ItrDFS
+Initial State:
+
+ Farmer is on left
+ Fox is on left
+ Chicken is on left
+ Grain is on left
+ Boat is on the left.
+
+len(OPEN)=1; len(CLOSED)=0; COUNT = 0
+OPEN is now: 
+ Farmer is on right
+ Fox is on left
+ Chicken is on right
+ Grain is on left
+ Boat is on the right.
+
+len(OPEN)=1; len(CLOSED)=1; COUNT = 1
+OPEN is now: 
+ Farmer is on left
+ Fox is on left
+ Chicken is on right
+ Grain is on left
+ Boat is on the left.
+
+len(OPEN)=1; len(CLOSED)=2; COUNT = 2
+OPEN is now: 
+ Farmer is on right
+ Fox is on right
+ Chicken is on right
+ Grain is on left
+ Boat is on the right.
+, 
+ Farmer is on right
+ Fox is on left
+ Chicken is on right
+ Grain is on right
+ Boat is on the right.
+
+len(OPEN)=2; len(CLOSED)=3; COUNT = 3
+OPEN is now: 
+ Farmer is on left
+ Fox is on right
+ Chicken is on left
+ Grain is on left
+ Boat is on the left.
+, 
+ Farmer is on right
+ Fox is on left
+ Chicken is on right
+ Grain is on right
+ Boat is on the right.
+
+len(OPEN)=2; len(CLOSED)=4; COUNT = 4
+OPEN is now: 
+ Farmer is on right
+ Fox is on right
+ Chicken is on left
+ Grain is on right
+ Boat is on the right.
+, 
+ Farmer is on right
+ Fox is on left
+ Chicken is on right
+ Grain is on right
+ Boat is on the right.
+
+len(OPEN)=2; len(CLOSED)=5; COUNT = 5
+OPEN is now: 
+ Farmer is on left
+ Fox is on right
+ Chicken is on left
+ Grain is on right
+ Boat is on the left.
+, 
+ Farmer is on left
+ Fox is on left
+ Chicken is on left
+ Grain is on right
+ Boat is on the left.
+, 
+ Farmer is on right
+ Fox is on left
+ Chicken is on right
+ Grain is on right
+ Boat is on the right.
+
+len(OPEN)=3; len(CLOSED)=6; COUNT = 6
+OPEN is now: 
+ Farmer is on right
+ Fox is on right
+ Chicken is on right
+ Grain is on right
+ Boat is on the right.
+, 
+ Farmer is on left
+ Fox is on left
+ Chicken is on left
+ Grain is on right
+ Boat is on the left.
+, 
+ Farmer is on right
+ Fox is on left
+ Chicken is on right
+ Grain is on right
+ Boat is on the right.
+
+len(OPEN)=3; len(CLOSED)=7; COUNT = 7
+Congratulations on successfully guiding the farmer, fox, chicken, and grain across the river!
+Solution path: 
+
+ Farmer is on left
+ Fox is on left
+ Chicken is on left
+ Grain is on left
+ Boat is on the left.
+
+
+ Farmer is on right
+ Fox is on left
+ Chicken is on right
+ Grain is on left
+ Boat is on the right.
+
+
+ Farmer is on left
+ Fox is on left
+ Chicken is on right
+ Grain is on left
+ Boat is on the left.
+
+
+ Farmer is on right
+ Fox is on right
+ Chicken is on right
+ Grain is on left
+ Boat is on the right.
+
+
+ Farmer is on left
+ Fox is on right
+ Chicken is on left
+ Grain is on left
+ Boat is on the left.
+
+
+ Farmer is on right
+ Fox is on right
+ Chicken is on left
+ Grain is on right
+ Boat is on the right.
+
+
+ Farmer is on left
+ Fox is on right
+ Chicken is on left
+ Grain is on right
+ Boat is on the left.
+
+
+ Farmer is on right
+ Fox is on right
+ Chicken is on right
+ Grain is on right
+ Boat is on the right.
+
+Length of solution path found: 7 edges
+7 states expanded.
+MAX_OPEN_LENGTH = 3

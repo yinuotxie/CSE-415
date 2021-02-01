@@ -1,0 +1,5 @@
+(a) Names: Susan Yang, Travis Xie
+(b) How to divide up the work? 
+We had zoom meetings to work together on the code. 
+During these meetings, we made sure to read and understand the instruction, 
+then looked at the example code, then wrote and debugged the code together. 
