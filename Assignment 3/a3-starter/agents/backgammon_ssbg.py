@@ -1,6 +1,6 @@
 '''
-Name(s):
-UW netid(s):
+Name(s):  Susan Yang, Travis Xie
+UW netid(s): xuanry, yinuox
 '''
 
 from game_engine import genmoves
@@ -23,7 +23,6 @@ class BackgammonPlayer:
 
     # returns a string representing a unique nick name for your agent
     def nickname(self):
-        # TODO: return a unique nick name for your agent
         return "yinuox, xuanry"
 
 
@@ -67,12 +66,40 @@ class BackgammonPlayer:
         white = 0
         
         for i in range(24):
+            count = 0                    # check how many checker are on the possition
+            is_white = False             # whether the cherker is white 
             for checker in state.pointLists[i]:
-                if(checker == 0):    
+                if(checker == 0):  
+                    is_white = True 
+                    count += 1
                     white += (24 - i)           
                 else:
+                    count += 1
                     red += (i + 1)
+
             
+            # only one checker on the position
+            # might be hit by the opponent checkers in front of it
+            if count == 1:
+                if is_white:
+                    red_front = 0         # record the number of red checker in front of it
+
+                    # the largest value of die is 12 
+                    # For example, if the white checker is at 8
+                    # it may be hit by any red checker from 9 to 20
+                    for j in range(i + 1, min(24, i + 12 + 1)):      
+                        if checker == 1:
+                            red_front += 1
+                    white += 2 * red_front
+                else:
+                    white_front = 0       # record the number of white checker in front of it
+                    for j in range(max(i - 12, 0), i):
+                        if checker == 0:
+                            white_front += 1
+                    red += 2 * white_front
+            
+
+
         for checker in state.bar:
             if(checker == 0):
                 white = white + 25

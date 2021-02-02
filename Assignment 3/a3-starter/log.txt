@@ -1,0 +1,237 @@
+The Simplified Backgammon Game-master (V20-1) says: Welcome!
+Playing WHITE: Random
+Playing RED: yinuox, xuanry
+computing turn 0
+
+ After turn 1 the current state is:
+ 13 14 15 16 17 18   19 20 21 22 23 24 
++------------------+------------------+
+| R           W    | W              R |
+| R           W    | W              R |
+| R           W    | W                |
+| R                | W                |
+| R                | W                |
++------------------+------------------+
+| W                | R                |
+| W                | R                |
+| W           R    | R                |
+| W           R    | R              W |
+| W           R    | R              W |
++------------------+------------------+
+ 12 11 10  9  8  7   6  5  4  3  2  1 
+===============================================
+
+White to play...
+The dice roll gives: 6, 4
+White move command: 17,19
+Applying move...checker at 17 will be moved by 6 and checker at 19 will be moved by 4
+computing turn 1
+
+ After turn 2 the current state is:
+ 13 14 15 16 17 18   19 20 21 22 23 24 
++------------------+------------------+
+| R           W    | W           W  R |
+| R           W    | W           W  R |
+| R                | W                |
+| R                | W                |
+| R                |                  |
++------------------+------------------+
+| W                | R                |
+| W                | R                |
+| W           R    | R                |
+| W           R    | R              W |
+| W           R    | R              W |
++------------------+------------------+
+ 12 11 10  9  8  7   6  5  4  3  2  1 
+===============================================
+
+Red to play...
+The dice roll gives: 2, 2
+Red move command: 24,13
+Applying move...checker at 24 will be moved by 2 and checker at 13 will be moved by 2
+computing turn 2
+
+ After turn 3 the current state is:
+ 13 14 15 16 17 18   19 20 21 22 23 24 
++------------------+------------------+
+| R           W    | W        R  W  R |
+| R           W    | W           W    |
+| R                | W                |
+| R                | W                |
++------------------+------------------+
+| W                | R                |
+| W                | R                |
+| W           R    | R                |
+| W           R    | R              W |
+| W  R        R    | R              W |
++------------------+------------------+
+ 12 11 10  9  8  7   6  5  4  3  2  1 
+===============================================
+
+White to play...
+The dice roll gives: 3, 4
+White move command: 12,15
+Applying move...checker at 12 will be moved by 3 and checker at 15 will be moved by 4
+computing turn 3
+
+ After turn 4 the current state is:
+ 13 14 15 16 17 18   19 20 21 22 23 24 
++------------------+------------------+
+| R           W    | W        R  W  R |
+| R           W    | W           W    |
+| R                | W                |
+| R                | W                |
+|                  | W                |
++------------------+------------------+
+|                  | R                |
+| W                | R                |
+| W           R    | R                |
+| W           R    | R              W |
+| W  R        R    | R              W |
++------------------+------------------+
+ 12 11 10  9  8  7   6  5  4  3  2  1 
+===============================================
+
+Red to play...
+The dice roll gives: 4, 5
+Red move command: 13,p
+Applying move...checker at 13 will be moved by 4 and (pass)
+Pass is accepted for the second die.
+computing turn 4
+
+ After turn 5 the current state is:
+ 13 14 15 16 17 18   19 20 21 22 23 24 
++------------------+------------------+
+| R           W    | W        R  W  R |
+| R           W    | W           W    |
+| R                | W                |
+|                  | W                |
+|                  | W                |
++------------------+------------------+
+|                  | R                |
+| W                | R                |
+| W           R    | R                |
+| W           R    | R              W |
+| W  R     R  R    | R              W |
++------------------+------------------+
+ 12 11 10  9  8  7   6  5  4  3  2  1 
+===============================================
+
+White to play...
+The dice roll gives: 4, 2
+White move command: 19,12
+Applying move...checker at 19 will be moved by 4 and checker at 12 will be moved by 2
+computing turn 5
+
+ After turn 6 the current state is:
+ 13 14 15 16 17 18   19 20 21 22 23 24 
++------------------+------------------+
+| R  W        W    | W        R  W  R |
+| R           W    | W           W    |
+| R                | W           W    |
+|                  | W                |
++------------------+------------------+
+|                  | R                |
+|                  | R                |
+| W           R    | R                |
+| W           R    | R              W |
+| W  R     R  R    | R              W |
++------------------+------------------+
+ 12 11 10  9  8  7   6  5  4  3  2  1 
+===============================================
+
+Red to play...
+The dice roll gives: 3, 4
+Red move command: 8,24
+Applying move...checker at 8 will be moved by 3 and checker at 24 will be moved by 4
+computing turn 6
+
+ After turn 7 the current state is:
+ 13 14 15 16 17 18   19 20 21 22 23 24 
++------------------+------------------+
+| R  W        W    | W  R     R  W    |
+| R           W    | W           W    |
+| R                | W           W    |
+|                  | W                |
++------------------+------------------+
+|                  | R                |
+|                  | R                |
+| W                | R                |
+| W           R    | R              W |
+| W  R     R  R    | R  R           W |
++------------------+------------------+
+ 12 11 10  9  8  7   6  5  4  3  2  1 
+===============================================
+
+White to play...
+The dice roll gives: 3, 2
+White move command: 17,20
+Applying move...checker at 17 will be moved by 3 and checker at 20 will be moved by 2
+computing turn 7
+
+ After turn 8 the current state is:
+ 13 14 15 16 17 18   19 20 21 22 23 24 
++------------------+------------------+
+| R  W        W    | W        W  W    |
+| R                | W           W    |
+| R                | W           W    |
+|                  | W                |
++------------------+------------------+
+|                  | R                |
+|                  | R                |
+| W                | R                |
+| W           R    | R              W |
+| W  R     R  R    | R  R           W |
++------------------+------------------+
+ 12 11 10  9  8  7   6  5  4  3  2  1 
+bar:RR
+===============================================
+
+Red to play...
+The dice roll gives: 2, 5
+Red move command: 0,p,R
+Applying move...checker at 0 will be moved by 5 and (pass)
+Pass is accepted for the second die.
+computing turn 8
+
+ After turn 9 the current state is:
+ 13 14 15 16 17 18   19 20 21 22 23 24 
++------------------+------------------+
+| R  W        W    | W  R     W  W    |
+| R                | W           W    |
+| R                | W           W    |
+|                  | W                |
++------------------+------------------+
+|                  | R                |
+|                  | R                |
+| W                | R                |
+| W           R    | R              W |
+| W  R     R  R    | R  R           W |
++------------------+------------------+
+ 12 11 10  9  8  7   6  5  4  3  2  1 
+bar:R
+===============================================
+
+White to play...
+The dice roll gives: 3, 1
+White move command: 1,4
+Applying move...checker at 1 will be moved by 3 and checker at 4 will be moved by 1
+computing turn 9
+
+ After turn 10 the current state is:
+ 13 14 15 16 17 18   19 20 21 22 23 24 
++------------------+------------------+
+| R  W        W    | W  R     W  W    |
+| R                | W           W    |
+| R                | W           W    |
+|                  | W                |
++------------------+------------------+
+|                  | R                |
+|                  | R                |
+| W                | R                |
+| W           R    | R                |
+| W  R     R  R    | R  W           W |
++------------------+------------------+
+ 12 11 10  9  8  7   6  5  4  3  2  1 
+bar:RR
+===============================================
